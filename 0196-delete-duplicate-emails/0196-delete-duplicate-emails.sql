@@ -1,0 +1,4 @@
+DELETE p1
+FROM PERSON p1
+JOIN PERSON p2
+ON p1.Email = p2.Email AND p1.Id > p2.Id;
